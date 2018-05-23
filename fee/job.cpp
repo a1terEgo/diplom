@@ -45,7 +45,7 @@ job::job(int _M)
 {
 	M = _M;
 
-	best_decision = new double*[5];
+	best_decision = new double*[6];
 	arr_jobs = new int *[4];
 	/*for (int i = 0; i < 4; i++) {
 		arr_jobs[i] = NULL;

@@ -1,0 +1,9 @@
+﻿  job.cpp
+c:\stud\practice\try\diplom\fee\job.cpp(327): warning C4244: return: преобразование "double" в "int", возможна потеря данных
+c:\stud\practice\try\diplom\fee\job.cpp(443): warning C4101: per: неиспользованная локальная переменная
+c:\stud\practice\try\diplom\fee\job.cpp(492): warning C4101: per: неиспользованная локальная переменная
+c:\stud\practice\try\diplom\fee\job.cpp(662): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+  main.cpp
+c:\stud\practice\try\diplom\fee\main.cpp(25): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  Создание кода...
+  fee.vcxproj -> C:\Stud\Practice\try\diplom\x64\Debug\fee.exe

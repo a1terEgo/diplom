@@ -24,10 +24,11 @@ int main()
 
 	srand(time(0));
 
-	for (int i = 0; i < 100; i++) {cout << i;
-		job test(9);
+	for (int i = 0; i < 100; i++) {
+		
 		cout << "------------------------¹ " << i + 1 << "------------------------" << endl;
 		fout << "------------------------¹ " << i + 1 << "------------------------" << endl;
+		job test(9);
 		test.print(fout);
 
 		test.brute_force(0);
@@ -71,7 +72,7 @@ int main()
 		for (int i = 0; i < 100; i++) {
 			csv << i + 1 << best[0][i] << round(best[1][i]) << round(best[2][i]) << round(best[3][i]) << round(best[4][i]) << round(best[5][i]) << endrow;
 		}
-		csv << "N" << "Brute_force" << "=ÑĞÇÍÀ×(C2:C101)" << "=ÑĞÇÍÀ×(D2:D101)" << "=ÑĞÇÍÀ×(E2:E101)" << "=ÑĞÇÍÀ×(F2:F101)" << "=ÑĞÇÍÀ×(J2:J101)" << endrow;
+		csv << "N" << "Brute_force" << "=ÑĞÇÍÀ×(C2:C101)" << "=ÑĞÇÍÀ×(D2:D101)" << "=ÑĞÇÍÀ×(E2:E101)" << "=ÑĞÇÍÀ×(F2:F101)" << "=ÑĞÇÍÀ×(G2:G101)" << endrow;
 	}
 	catch (const std::exception &ex)
 	{
